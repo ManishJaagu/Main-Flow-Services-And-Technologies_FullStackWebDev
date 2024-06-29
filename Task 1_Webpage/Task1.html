@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MapVault Systems</title> <!--My website Title-->
+    <link rel="shortcut icon" type="mv-icon" href="icons/mv3.png"> <!--link for title logo-->
+    <link rel="stylesheet" href="Task1.css"><!--link for Task1 stylesheet-->
+<!--Google fonts link for "Lato" font-->   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<!--Font Awesome icon CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--The header section-->
+    <div class="header">
+        <div class="left-section"><!--Header-Logo Section-->
+            <img class="mv-icon" src="icons/mv.png">
+        </div>
+
+        <div class="middle-section"><!--Header-Middle Section-->
+            <input class="search-box" type="text" placeholder="Search here">
+            <button class="search-button"><img class="search-icon" src="icons/search3.png" alt="search-icon">
+                <div class="tooltip">Search</div></button>
+            <button class="mic-bar"><img class="mic-icon" src="icons/voice-search-icon.svg">
+            <div class="tooltip">Search with your voice</div></button>    
+        </div>
+
+        <div class="right-section"> <!--Header-Right Section-->
+            <a href="#home-div" class="header-link">Home</a>
+            <a href="#about-us-div" class="header-link">About Us</a>
+            <a href="#contact-us-div" class="header-link">Contact Us</a>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </div>
+
+       <!--Body for my Home section-->
+       <!--Home Section-->
+    <div class="background" id="home-div">
+        <h1>Welcome to MapVault Systems</h1>
+        <p>Discover the amazing features we offer to help you get started with ease.</p>
+        <a href="#" class="explore-button">Explore Now!</a>
+    </div>
+
+        <!--About-Us Section-->
+    <div class="about-us-section" id="about-us-div">
+        <img class="about-us-img" src="icons/aboutus.png" alt="about-us-img">
+        <div class="about-us-content">
+            <div class="about-us-paras">
+                <p>
+                    ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Welcome to MapVault Systems! We're an open-source platform where users can share and explore data on country currencies, statistics, maps, GIS, and remote sensing imagery. Our community values transparency and collaboration, allowing users to contribute insights and enrich our collective knowledge. Discover detailed maps, intricate statistics, and advanced geographic data visualization. For more, our premium packs offer exclusive benefits, deeper insights, and enhanced features. Join us to explore the world's data and uncover its stories.
+                </p>
+                <p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ At MapVault Systems, transparency and collaboration are at our core. Users can freely contribute their insights and findings, enriching our collective understanding. Explore detailed maps, delve into intricate statistics, and visualize geographic data through advanced GIS and remote sensing images all at your fingertips! For those seeking more, our premium packs unlock exclusive benefits, providing deeper insights and enhanced functionalities. </p>
+            <p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Purchase maps tailored to your needs, download datasets for analysis, and gain access to premium features that elevate your experience. Join us on this journey of discovery and innovation. Together, let's explore the world's data and uncover its stories.
+                </p>
+            </div>
+        </div>
+    </div>
+
+        <!--Contact-Us Section-->
+    <div class="contact-us-section" id="contact-us-div">
+        <div class="contact-us-content">
+            <img class="contact-us-img" src="icons/contactus2.png" alt="about-us-img"><!--Contact-Us logo Link-->
+           <div class="customer-info"> <!--Contact-Us Customer-input Section-->
+            <label class="cust-text-label" for="c-name">Name : </label>
+            <br>
+            <input class="cust-text" type="text" size="75" placeholder="Enter Your Name">
+            <br>
+            <br>
+            <label class="cust-text-label" for="c-mobile-num">Mobile No.: </label>
+            <br>
+            <input  class="cust-text"type="phone" size="75" placeholder="Enter your Mobile Number">
+            <br>
+            <br>
+            <label class="cust-text-label" for="c-email">E-Mail : </label>
+            <br>
+            <input class="cust-text" type="text" size="75" placeholder="Name@example.com">
+            <br>
+            <br>
+            <label class="cust-text-label" for="c-query">Feedback / Query : </label>
+            <br>
+            <input class="cust-text" type="text" size="75" placeholder="Any feedbacks/Queries">
+            <br><br>
+            <button class="customer-info-submit-button" type="button">Submit</button>
+
+            <div class="business-info"> <!--Contact-Us website Links section-->
+<!--Envelope icon--><i class="fa-solid fa-envelope"> </i><i class="business-data"> E-Mail: <a class="company-links" type="email" href="mailto:name@gmail.com">Send E-mail</a></i>
+                <br><br>
+<!--call icon--><i class="fa-solid fa-phone"></i><i class="business-data"> Contact: <a class="company-links" type="phone" href="tel:96765780">Call Now</a></i>
+                <br><br>
+<!--linkedIn icon--><i class="fa-brands fa-linkedin"></i><i class="business-data"> LinkedIn: <a class="company-links" type="LinkedIn" href="#">View Profile</a></i>
+            </div>      
+        </div>
+    </div>
+    </div>
+
+    <div class="footer"> <!--The footer section-->
+        <div class="footer-logo-section"> <!--Footer-logo Section-->
+            <img class="non-prof-logo" src="icons/Non-prof.svg" alt="non-Profit-Organization">
+            <img class="open-src-logo" src="icons/opensource.svg" alt="open-source">
+        </div>
+        <div class="footer-links"><!--Header-Right Section-link section-->
+            <a href="#" class="footer-link">Terms</a>
+            <a href="#" class="footer-link">Privacy</a>
+            <a href="#contact-us-div" class="footer-link">Contact</a>
+            <a href="#" class="footer-link">Map Vault © 2024</a>
+        </div>
+    </div>    
+</body>
+</html>
