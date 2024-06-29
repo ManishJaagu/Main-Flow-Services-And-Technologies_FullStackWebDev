@@ -1,0 +1,1 @@
+I've redesigned the UI with a dark theme to reduce eye strain, replacing the previous sky blue color scheme.  I've also incorporated AOS library animations that trigger on scrolling and added JavaScript functionality to highlight the currently active sections. Additionally, clicking the user button now opens dedicated sign-up and sign-in modals.
