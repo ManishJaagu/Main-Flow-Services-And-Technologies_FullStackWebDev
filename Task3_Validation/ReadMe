@@ -1,0 +1,2 @@
+This code was connected to a database 'mapvault'
+You can't signup, signin directly. You have to create a database named 'mapvault' ,table 'users' and some attributes to work
